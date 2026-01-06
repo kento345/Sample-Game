@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="directx">
+      <UniqueIdentifier>{9e34ad76-c92e-4784-b0e4-c6fc03896704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="draw_resouce">
+      <UniqueIdentifier>{0600c64e-b6a7-44b4-8580-0a6446a1f520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="entry">
+      <UniqueIdentifier>{681b6451-7aa2-4719-a64e-d9e6422f9373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{eee386e6-7bf1-4eaf-9e06-a6cf90d0b660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{368234a4-fbaa-4cdf-ae8e-7c0eb4fd043b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="directx\Device.cpp">
+      <Filter>directx</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\DXGI.cpp">
+      <Filter>directx</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\CommandAllocator.cpp">
+      <Filter>directx</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\CommandList.cpp">
+      <Filter>directx</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\CommandQueue.cpp">
+      <Filter>directx</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\DepthBuffer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="directx\DescriptorHeap.cpp">
+      <Filter>directx</Filter>
+    </ClCompile>
+    <ClCompile Include="window\input.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="window\Windw.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="directx\Device.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\DXGI.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\CommandAllocator.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\CommandList.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\CommandQueue.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\DepthBuffer.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="directx\DescriptorHeap.h">
+      <Filter>directx</Filter>
+    </ClInclude>
+    <ClInclude Include="window\input.h">
+      <Filter>window</Filter>
+    </ClInclude>
+    <ClInclude Include="window\Windw.h">
+      <Filter>window</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
